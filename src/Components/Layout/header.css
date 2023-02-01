@@ -1,0 +1,8 @@
+.header {
+    padding: 34px 0px 0px 0px !important;
+    margin-left: 149px;
+    margin-right: 93px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
