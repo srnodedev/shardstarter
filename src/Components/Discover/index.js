@@ -7,7 +7,7 @@ function Discover() {
                 we provision. Our rigorous selection method ensures that we only offer the highest quality<br/>
                 options with the ultimate potential for success to our Investors
             </p>
-            <div style={{marginTop: 99, paddingLeft: 313, paddingRight: 313}} className="flex flex-row space-x-14">
+            <div style={{marginTop: 99, paddingLeft: "16%", paddingRight: "16%"}} className="flex flex-row justify-between">
                 <img src="./assets/Project1.png" alt="" />
                 <img src="./assets/Project2.png" alt="" />
                 <img src="./assets/Project3.png" alt="" />
@@ -35,16 +35,16 @@ function Discover() {
             </div>
             <div style={{marginTop: 207}} className='flex justify-center relative'>
                 <img src="./assets/roadmap1.png" alt="" />
-                <p className='absolute text-2xl'style={{top: 210, left: 260}}>
+                <p className='absolute text-2xl'style={{top: 210, left: 'calc(50% - 700px)'}}>
                     10,000 Staked $SHARD<br/>Guaranteed Allocation<br/>8% of Pool Size<br/>Minimum Staking – 7 days
                 </p>
-                <p className='absolute text-2xl'style={{top: 160, left: 1450}}>
+                <p className='absolute text-2xl'style={{top: 160, left: 'calc(50% + 500px)'}}>
                     10,000 Staked $SHARD<br/>Guaranteed Allocation<br/>16% of Pool Size<br/>Minimum Staking – 7 days
                 </p>
-                <p className='absolute text-2xl'style={{top: 660, left: 276}}>
+                <p className='absolute text-2xl'style={{top: 660, left: 'calc(50% - 650px)'}}>
                     10,000 Staked $SHARD<br/>Guaranteed Allocation<br/>28% of Pool Size<br/>Minimum Staking – 14 days
                 </p>
-                <p className='absolute text-2xl'style={{top: 623, left: 1349}}>
+                <p className='absolute text-2xl'style={{top: 623, left: 'calc(50% + 390px)'}}>
                     10,000 Staked $SHARD<br/>Guaranteed Allocation<br/>28% of Pool Size<br/>Minimum Staking – 14 days
                 </p>
             </div>

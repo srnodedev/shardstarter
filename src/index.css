@@ -12,7 +12,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #151517;
   color: white;
-  width: 1899px;
+  /* width: 1899px; */
+  transform: scale(1, 1);
+  transform-origin: top;
 }
 
 code {
