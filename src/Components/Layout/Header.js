@@ -5,7 +5,10 @@ function Header(){
 
     return (
         <div className="header items-center">
-            <img src="./assets/logo.png" alt="Logo" />
+            <div className='flex flex-row text-center text-2xl space-x-1'>
+                <img src="./assets/logo.png" alt="Logo" />
+                <p>Shardstarter</p>
+            </div>
             <div className='ml-auto' />
             {
                 menus.map((item) => 
