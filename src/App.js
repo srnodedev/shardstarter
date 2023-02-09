@@ -38,7 +38,7 @@ const App = () => {
         transformOrigin: "top left",
         width: 1920,
         // width: 1920 - 21 * (width / 1920),
-        height: 10578 * ((width / 1920) > 1 ? 1 : (width / 1920)),
+        height: 10541 * ((width / 1920) > 1 ? 1 : (width / 1920)),
       }}>
         <Header />
         <Launchpad />
