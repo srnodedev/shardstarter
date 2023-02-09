@@ -31,31 +31,31 @@ const ParticlesComponent = (props) => {
         },
         modes: {
           push: {
-            quantity: 10, // number of particles to add on click
+            quantity: 5, // number of particles to add on click
           },
           repulse: {
-            distance: 100, // distance of the particles from the cursor
+            distance: 120 * props.rate, // distance of the particles from the cursor
           },
         },
       },
       particles: {
         links: {
           enable: true, // enabling this will make particles linked together
-          distance: 200, // maximum distance for linking the particles
+          distance: 120 * props.rate, // maximum distance for linking the particles
         },
         move: {
           enable: true, // enabling this will make particles move in the canvas
-          speed: { min: 1, max: 5 }, // using a range in speed value will make particles move in a random speed between min/max values, each particles have its own value, it won't change in time by default
+          speed: { min: 1 * props.rate, max: 5 * props.rate }, // using a range in speed value will make particles move in a random speed between min/max values, each particles have its own value, it won't change in time by default
         },
         opacity: {
-          value: { min: 0.3, max: 0.7 }, // using a different opacity, to have some semitransparent effects
+          value: { min: 0.3 * props.rate, max: 0.7 * props.rate }, // using a different opacity, to have some semitransparent effects
         },
         size: {
-          value: { min: 1, max: 3 }, // let's randomize the particles size a bit
+          value: { min: 1 * props.rate, max: 3 * props.rate }, // let's randomize the particles size a bit
         },
       },
     };
-  }, []);
+  }, [props.rate]);
 
   // useCallback is not mandatory, but it's recommended since this callback can be memoized if static
   const particlesInit = useCallback((engine) => {

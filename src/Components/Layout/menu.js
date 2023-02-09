@@ -2,19 +2,19 @@ export const menus =
     [
         {
             title: "About",
-            link: "/"
+            link: "#about"
         },
         {
             title: "Roadmap",
-            link: "/"
+            link: "#roadmap"
         },
         {
             title: "Raise Capital",
-            link: "/"
+            link: "#raisecapital"
         },
         {
             title: "ShardDAO",
-            link: "/"
+            link: "#sharddao"
         },
         {
             title: "dApp",

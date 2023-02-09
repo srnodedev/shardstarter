@@ -12,12 +12,12 @@ function Header(){
             <div className='ml-auto' />
             {
                 menus.map((item) => 
-                    <div key={item.title} className='text-lg font-normal mr-10'><a href='#top'>{item.title}</a></div>
+                    <div key={item.title} className='text-lg font-normal mr-10'><a href={item.link}>{item.title}</a></div>
                     // <div>{item.title}</div>
                 )
             }
-            <img src="./assets/card.png" className='ml-5' alt="card" />
-            <button className='ml-2.5 text-lg font-normal'>Connect Wallet</button>
+            {/* <img src="./assets/card.png" className='ml-5' alt="card" /> */}
+            {/* <button className='ml-2.5 text-lg font-normal'>Connect Wallet</button> */}
         </div>
     )
 }

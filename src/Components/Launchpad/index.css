@@ -2,8 +2,19 @@
     margin: 6px 0px 0px 149px !important;
 }
 
-.coin {
-    position: absolute;
-    right: 0;
-    top: 102;
+img.vert-move {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
 }

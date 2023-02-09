@@ -5,7 +5,7 @@ import LeftToRight from "./LeftToRight"
 
 function  Roadmap() {
     return (
-        <div className="mt-32">
+        <div id="roadmap" className="mt-32">
             <p className="text-5xl text-center  font-bold">RoadMap</p>
             <div className="items-center flex justify-center mt-32">
                 <div className="flex flex-col">

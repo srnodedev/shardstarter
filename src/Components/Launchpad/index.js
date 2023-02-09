@@ -5,7 +5,7 @@ import DisplayRight from '../DisplayRight'
 
 export default function Launchpad() {
     return (
-        <div className=" ">
+        <div id="about">
             <div className='flex flex-row relative launchpad'>
                 <div style={{marginTop: 170}}>
                     <p style={{fontSize: "65px", lineHeight: "76px"}}><b>First Decentralized <br/>Launchpad on Shardeum</b></p>
@@ -42,8 +42,8 @@ export default function Launchpad() {
                     </div>
                 </div>
                 <div className='flex'>
-                    <div className='absolute right-60 top-20'>
-                        <img src="./assets/background-1.png" alt="" />
+                    <div className='absolute right-16 top-20'>
+                        <img src="./assets/background-1.png" className='vert-move' alt="" />
                     </div>
                     {/* <Animation /> */}
                 </div>
@@ -53,6 +53,9 @@ export default function Launchpad() {
                 <p className='text-2xl' style={{marginTop: 29}}>ShardStarter is poised to revolutionize the crypto market<br/>with its innovative features and services</p>
             </div>
             <div style={{marginTop: 61}} className='relative'>
+                <div className='absolute' style={{top: 338, left: 104}}>
+                    <img src='./assets/background-4.png' className='vert-move' alt='' />
+                </div>
                 <div>
                     <DisplayLeft 
                         imgPath="./assets/shardeum_logo.png" 
@@ -80,9 +83,6 @@ export default function Launchpad() {
                         heading="Fair Distribution"
                         content="Users earn allocations at ShardStarter based<br/>on the amount and duration of their $SHARD<br/>token staking, as determined by our Tier<br/>System. This system ensures that everyone has<br/>a fair chance to participate."
                     />
-                </div>
-                <div className='absolute' style={{top: 338}}>
-                    <img src='./assets/background-4.png' alt='' />
                 </div>
             </div>
         </div>

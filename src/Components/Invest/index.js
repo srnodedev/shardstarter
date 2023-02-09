@@ -1,8 +1,8 @@
 function Invest() {
     return (
-        <div className="flex" style={{height: 944, marginTop: 33}}>
+        <div  id="sharddao" className="flex" style={{height: 944, marginTop: 126}}>
             <img className="absolute right-0" src="./assets/background_invest.png" alt="" />
-            <div style={{marginTop: 236, marginLeft: 149}}>
+            <div style={{marginTop: 100, marginLeft: 149}}>
                 <p className="text-2xl">Join our</p>
                 <p className="text-4xl mt-6 font-bold">Are You a Venture Capital /<br/>Angel Investor?</p>
                 <p className="text-2xl mt-9"><b>300 Strong ShardDAO Community</b><br/>for Exclusive Vested & SAFE Deals</p>

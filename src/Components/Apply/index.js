@@ -6,6 +6,7 @@ function Apply() {
             marginTop: 92
         }}
         className='w-full flex flex-col'
+        id="raisecapital"
         >
             <p className="mt-24 text-4xl text-center text-white  font-bold">
                 Maximize the potential of your project by raising<br/>funds and setting it up for success at launch
