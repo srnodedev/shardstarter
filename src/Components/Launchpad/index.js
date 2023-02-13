@@ -11,12 +11,15 @@ export default function Launchpad() {
                     <p style={{fontSize: "65px", lineHeight: "76px"}}><b>First Decentralized <br/>Launchpad on Shardeum</b></p>
                     <p className='mt-1.5 text-2xl'>The community-driven launchpad you have been waiting for</p>
                     <div className='flex flex-row mt-7'>
-                        <button 
-                            className='rounded bg-white text-black items-center text-lg'
+                        <a 
+                            className='rounded bg-white text-black items-center text-lg text-center justify-center flex'
+                            href="https://shardstarter-io.gitbook.io/shardstarter/"
+                            target="_blank"
+                            rel="noreferrer"
                             style={{
                                 width: "163px",
                                 height: "46px"
-                            }}>Lightpaper</button>
+                            }}>Lightpaper</a>
                         <div className= 'border-2 ml-2.5 rounded-lg' style={{borderColor: '#494C4F'}}>
                             <button
                                 className='rounded text-white items-center text-lg'

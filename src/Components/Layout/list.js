@@ -1,6 +1,6 @@
 export const list = [
     {
-        src: "./assets/social/twitter.png",
+        src: "./assets/social/telegram.png",
         link: "http://t.me/ShardStarter"
     },
     {
